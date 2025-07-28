@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "input_documents": ["doc1.pdf", "doc2.pdf"],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2025-07-28T12:00:00Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "doc1.pdf",
+      "page_number": 3,
+      "section_title": "Methodologies for GNNs",
+      "importance_rank": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "doc1.pdf",
+      "refined_text": "Graph neural networks (GNNs) have been applied to drug discovery...",
+      "page_number": 3
+    }
+  ]
+}
